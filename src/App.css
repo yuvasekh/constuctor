@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+.header
+{
+  top: 1px;
+  position:absolute;
+  width: 100%;
+  left: 0px;
+  /* background-color: rgb(36, 214, 214); */
+  box-shadow: 0px 2px 4px rgba(236, 228, 228, 0.89);
+  background-color: rgb(255, 255, 255);
+position:fixed ;
+}
+.footer
+{
+  height: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(17, 1, 1, 0.89);
+
+}
+span{
+  color: red;
+font-size: 25px;
+}
+
+.signin
+{
+  right: 200px;
+  color: #ffff;
+  bottom:5px;
+  background-color: rgb(52, 78, 196);
+  position: absolute;
+}
+.logoimg
+{
+  left:250px;
+  top: 2px;
+  position: absolute;
+
+}
+.imgmid
+{
+  background-image: url('https://i.pinimg.com/originals/b9/12/7b/b9127bb048b765d161aa1589d218fce1.jpg');
+  background-size : cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+margin-left: -155px;
+margin-top: -5px;
+}
+
+ul li{
+  display: inline;
+  text-decoration: none;
+  padding: 25px;
+}
+h1{
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 20px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  background-color: #ccffff ;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+  }
+}
+  .column {
+    display: inline;
+    margin-bottom: 20px;  
+  }
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  text-align: center;
+  background-color: #ffffff;
+margin-left: 200px;
+
+}
+
