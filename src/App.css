@@ -36,10 +36,10 @@ position:fixed ;
 .footer
 {
   height: 50px;
-  position: relative;
+
   bottom: 0;
-  width: 100%;
-  left: 0;
+  width: 1800px;
+right: 1200px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(17, 1, 1, 0.89);
 

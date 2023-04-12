@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Header title="My header" subtitle="subtitle2" />
       <div className="imgmid">
-        <h1>Come And Join And Get Daily PaidOff</h1>
+        <h1>Come And Join And Get Daily Paid Off</h1>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
