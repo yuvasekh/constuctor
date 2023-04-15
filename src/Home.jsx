@@ -1,42 +1,50 @@
 import React from 'react'
-import './App.css'
+import './Home.css'
  const Home = () => {
   return (
     <>
-
-<div className="row">
-  <div className="column">
-    <div className="card">
-      <h3>Card 1</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+    
+    <div className="imgmid">
+      <div className="imgcard">
+      <h1>Come And Join And Get Daily Paid Off</h1>
+        <button className='signin'>SignIn</button>
+      </div>
+      
+      </div>
+    <div class="homecontent">
+  <h2>Who can use this Software</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Students</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-  </div>
-
-  <div className="column">
-    <div className="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+    <div class="card">
+      <h3>Professionals</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-  </div>
-  
-  <div className="column">
-    <div className="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+    <div class="card">
+      <h3>Small Business Owners</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-  </div>
-  
-  <div className="column">
-    <div className="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+    <div class="card">
+      <h3>Large Corporations</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+      <h3>Non-profit Organizations</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+      <h3>Government Agencies</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+      <h3>Anyone!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
   </div>
 </div>
+
     </>
   )
 }
