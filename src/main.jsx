@@ -10,7 +10,6 @@ import {
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Router>
-   <Header title="My header" subtitle="subtitle2" />
     <App />
   </Router>
   </React.StrictMode>,
