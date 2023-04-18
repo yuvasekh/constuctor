@@ -8,7 +8,10 @@ import Contact from "./Contact";
 import SiderOpen from "./SiderOpen";
 import { Routes, Route, Navigate, Link, Outlet } from "react-router-dom";
 import SliderOpen from "./SiderOpen";
+import Register from './Register'
+
 const App = () => {
+
   return (
     <Fragment>
   <Header/>
@@ -17,6 +20,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
       <Footer note="Footer Note" />
     </Fragment>

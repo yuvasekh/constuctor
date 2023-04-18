@@ -1,13 +1,21 @@
 import React from 'react'
 import './Home.css'
+import { Button } from 'antd';
+import SignIn from './SignIn'
+import { useNavigate } from 'react-router-dom';
  const Home = () => {
+  const navigate = useNavigate();
+  function handleClick() {
+    navigate('/register');
+  }
   return (
     <>
     
     <div className="imgmid">
       <div className="imgcard">
-      <h1>Come And Join And Get Daily Paid Off</h1>
-        <button className='signin'>SignIn</button>
+      <h1 style={{color:'#084785'}}>Come And Join And Get Daily Paid Off</h1>
+      <SignIn/>
+        {/* <button className='signin'>SignIn</button> */}
       </div>
       
       </div>
@@ -47,7 +55,10 @@ import './Home.css'
     <p> Retailers are businesses that sell products directly to consumers. They play an important role in the economy by creating jobs and providing access to a wide variety of goods and services</p>
   </div>
 </div>
-
+<Button type="primary" htmlType="submit" style={{ width: 120, height:50,fontSize: 14 ,alignItems:'center',color:'white'}} onClick={handleClick}>
+          Register
+        </Button>
+        <br></br>  <br></br>
 </div>
 
     </>
