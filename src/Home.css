@@ -130,3 +130,62 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 background-position: center;
 margin-left: 500px;
 }
+.ant-select-selection-item
+{
+  color: #084785;
+  font-size: medium;
+}
+.anticon 
+{
+  font-size: medium;
+  color: #084785;
+}
+/* Apply styles to the sign-in card */
+.signincard1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Apply styles to the form inside the card */
+.signincard2 form {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Apply styles to the form inputs and labels */
+.signincard2 input,
+.signincard2 select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.signincard2 label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Apply styles to the submit button */
+.signincard2 button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.signincard2 button[type="submit"]:hover {
+  background-color: #0062cc;
+}

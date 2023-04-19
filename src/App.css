@@ -18,9 +18,6 @@
   }
 }
 
-.read-the-docs {
-  color: #888;
-  }
   .header {
     top: 1px;
     width: 100%;
@@ -84,7 +81,8 @@
   .nav {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    
   }
 
   .nav__list {
@@ -96,7 +94,15 @@
 
   .nav__item {
     margin-right: 1rem;
+ height: 50px;
+   
   }
+  .nav__item:hover {
+    margin-right: 1rem;
+background-color: red;
+   
+  }
+
 
   @media screen and (max-width: 768px) {
     .headnav {
@@ -178,4 +184,23 @@
     margin-left: 200px;
   }
 
+  .ant-menu {
+    width:fit-content;
+    background-color:rgb(12, 1, 3);
+    color: white !important;
+
+ /* Set a maximum height of 400px */
   
+  }
+ .ant-menu-title-content
+ {
+  color: rgb(209, 211, 237) !important;
+ }
+  .ant-menu-root
+  {
+    height: 100vh;
+  }
+  .ant-layout-sider-children
+  {
+    background-color: rgb(11, 2, 3);
+  }

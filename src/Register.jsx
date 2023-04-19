@@ -93,7 +93,8 @@ const Register = () => {
 
   return (
     <>
-    <div className='signincard'>
+    <div className='signincard1'>
+    <div className='signincard2'>
     <Form
       form={form}
       layout="vertical"
@@ -125,13 +126,16 @@ const Register = () => {
             <Input onBlur={handleBlur} onChange={handleChange} />
           </Form.Item>
         </Col>
+      
         <Col span={8}>
-          <Form.Item label="Gender" name="gender" rules={[validateField('gender')]}>
-            <Radio.Group>
-              <Radio value="male">Male</Radio>
-              <Radio value="female">Female</Radio>
-            </Radio.Group>
+          <Form.Item label="gender" name="gender" rules={[validateField('gender')]}>
+            <Select onBlur={handleBlur} onChange={handleChange}>
+              <Option value="Male">Male</Option>
+              <Option value="Female">Female</Option>
+              <Option value="Other">Other</Option>
+            </Select>
           </Form.Item>
+      
         </Col>
         <Col span={8}>
           <Form.Item label="Mobile" name="mobile" rules={[validateField('mobile')]}>
@@ -196,6 +200,7 @@ const Register = () => {
       </Form.Item>
     </Form>
  
+    </div>
     </div>
     <br>
     </br>

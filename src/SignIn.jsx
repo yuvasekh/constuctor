@@ -1,7 +1,9 @@
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import { useNavigate } from 'react-router-dom';
 import './Home.css'
 const SignIn = () => {
+  const navigate=useNavigate()
   const onFinish = (values) => {
     console.log('Received values of form: ', values);
   };
@@ -68,7 +70,8 @@ const SignIn = () => {
       </Form.Item>
 
       <Form.Item>
-        <Button type="primary" htmlType="submit" style={{ width: 110, height:50,fontSize: 14 ,alignItems:'center',}}>
+        <Button type="primary" htmlType="submit" style={{ width: 110, height:50,fontSize: 14 ,alignItems:'center',}} onClick={()=>{navigate
+        ('/contractor'),localStorage.setItem('isLoggedin',true)}}>
           Submit
         </Button>
       </Form.Item>

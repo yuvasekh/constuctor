@@ -4,6 +4,7 @@ import { Button } from 'antd';
 import SignIn from './SignIn'
 import { useNavigate } from 'react-router-dom';
  const Home = () => {
+  // localStorage.setItem('isLoggedin',false)
   const navigate = useNavigate();
   function handleClick() {
     navigate('/register');
